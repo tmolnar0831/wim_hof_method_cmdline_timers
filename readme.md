@@ -58,6 +58,25 @@ Basic shell script written in BASH for even simpler environments.
 
 The first lines of the script can be modified to change the default breathing session.
 
+```
+# Define the number of rounds
+rounds=3
+
+# Define the number of breaths per round
+breaths=30
+
+# Define breath lenght in seconds
+breath_length=3
+
+# Define the retention times
+retention1=30
+retention2=60
+retention3=90
+
+# Define the recovery time
+recovery=15
+```
+
 **Defaults:**
 
 - 3 rounds
