@@ -1,6 +1,8 @@
-# Wim Hof Method command line breathing timers by Tom's Health Cafe
+# Wim Hof Method command line breathing timer scripts
 
 These scripts are for exercising the Wim Hof Method breathing with timers in the command line interface.
+
+More info: https://www.wimhofmethod.com/breathing-exercises
 
 # Scripts
 
@@ -8,7 +10,7 @@ These scripts are for exercising the Wim Hof Method breathing with timers in the
 
 This is a simple Python 3 script with a simple user interface for setting the breathing rounds, the number of breaths, the retention time and the recovery breath time.
 
-### Usage
+***Usage:***
 
 ```
 usage: whm.py [-h] [--breaths BREATHS] [--retentions RETENTIONS RETENTIONS RETENTIONS] [--recovery RECOVERY] [--rounds ROUNDS]
@@ -22,9 +24,32 @@ optional arguments:
   --rounds ROUNDS       Number of rounds
 ```
 
+
+**Defaults:**
+
+- 3 rounds
+- 30 breaths per round
+- 30, 60 and 90 seconds retentions
+- 15 seconds recovery breaths
+
 ## whm.sh
 
 Basic shell script written in BASH for even simpler environments.
+
+***Usage:***
+
+```
+./whm.sh
+```
+
+The first lines of the script can be modified to change the default breathing session.
+
+***Defaults:***
+
+- 3 rounds
+- 30 breaths per round
+- 30, 60 and 90 seconds retentions
+- 15 seconds recovery breaths
 
 # Author
 
