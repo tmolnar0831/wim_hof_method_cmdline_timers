@@ -1,16 +1,13 @@
 #!/usr/bin/env python
 
+#
+# Tom's Health Cafe Wim Hof Method breathing timer
+# URL: https://tomsitcafe.com
+#
+
 import time
 import argparse
 from progress.bar import Bar
-
-def retention(retention_time):
-    print(f'Retention for {retention_time} seconds')
-    time.sleep(retention_time)
-
-def recovery(recovery_time):
-    print(f'Recovery for {recovery_time} seconds')
-    time.sleep(recovery_time)
 
 def round(round_num, breath_count, retention_times, recovery_time):
     print(f'Round {round_num}')
@@ -33,7 +30,7 @@ def round(round_num, breath_count, retention_times, recovery_time):
     bar.finish()
 
 def main():
-    parser = argparse.ArgumentParser(description='Tom\'s Health Cafe Wim Hof breathing timer')
+    parser = argparse.ArgumentParser(description='Tom\'s Health Cafe - Wim Hof breathing timer')
     parser.add_argument('--breaths', type=int, default=30,
                         help='Number of breaths per round')
     parser.add_argument('--retentions', type=int, nargs=3,
